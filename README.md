@@ -3,10 +3,10 @@
 
 ## Table Of Contents
 
-* [Pre-requisites](#pre-requisites)
-* [Run Your First Test](#run-your-first-test)
-* [Parallel Testing With TestNG](#executing-parallel-tests-using-testng)
-* [Local Testing With TestNG](#testing-locally-hosted-or-privately-hosted-projects)
+* Pre-requisites
+* Run Your First Test
+* Parallel Testing With TestNG
+
 
 ## Pre-requisites
 
