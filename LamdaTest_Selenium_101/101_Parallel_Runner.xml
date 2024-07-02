@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+
+	<test thread-count="2" parallel="tests" name="Test01">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="version" value="108.0" />
+		<parameter name="platform" value="Windows 11" />
+		<parameter name="testcasename" value="TestScenario_01" />
+		<classes>
+			<class name="com.lamdatest.testcase.TestScenario01" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="2" parallel="tests" name="Test02">
+		<parameter name="browser" value="Safari" />
+		<parameter name="version" value="16.0" />
+		<parameter name="platform" value="macOS Ventura" />
+		<parameter name="testcasename" value="TestScenario_02" />
+		<classes>
+			<class name="com.lamdatest.testcase.TestScenario02" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="2" parallel="tests" name="Test03">
+		<parameter name="browser" value="Edge" />
+		<parameter name="version" value="107.0" />
+		<parameter name="platform" value="Windows 10" />
+		<parameter name="testcasename" value="TestScenario_03" />
+		<classes>
+			<class name="com.lamdatest.testcase.TestScenario03" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
